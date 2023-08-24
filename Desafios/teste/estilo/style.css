@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/IDroid.otf') format('opentype');
+}
+
+:root{
+    --font-android: 'Android';
+}
+h1{
+    font-family: var(--font-android)
+}

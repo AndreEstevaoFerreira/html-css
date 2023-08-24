@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(169, 169, 169, 0.655);
+        }
+        header{
+            background-color: rgba(9, 57, 121, 0.842);
+            margin:10px;
+            padding: auto;
+            box-shadow: 4px 5px 6px 0px #0000005b;
+        }
+        h1{
+            text-align: center;
+        }
+        nav > a{
+            margin-right: 80px;
+            color: white;
+            text-decoration: none;
+        }
+        nav > a:hover{
+            color: rgba(145, 197, 66, 0.649);
+            text-decoration: underline;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        footer > p > a{
+            text-decoration: none;
+            color: white;
+        }
+        footer > p > a:hover{           
+            color: rgba(145, 197, 66, 0.649);
+            text-decoration: underline;
+        }
+        nav#menu{
+            background-color: rgba(0, 0, 0, 0.722);
+            border-style: solid;
+            border-color: black;
+            text-align: center;
+        }
+        main{
+            
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: rgba(108, 55, 144, 0.41);
+            padding: 1px 1px 3px 11px;
+            border-radius: 20px 0px;
+            box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.358);
+        }
+        article > aside{
+            background-color: rgba(252, 255, 255, 0.777);
+            text-align: right;
+            padding-right: 5px;
+            margin-right: 5px;
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            color: white;
+
+            border-color: black;
+            padding:7px;
+        }
+    </style>
+</head>
+<body>
+    <Header>
+        <h1>Stephen Andrew</h1>
+        <nav id="menu">
+            <a href="#">Home</a>
+            <a href="#">Videos</a>
+            <a href="#">Depoimentos</a>
+            <a href="#">Comprar</a>
+            <a href="#">Login</a>
+        </nav>
+    </Header>
+    <Main>
+        <section id="assunto">
+            <article>
+                <h2>Jornada do Investidor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo earum voluptatem illum deleniti cum impedit voluptate possimus iste saepe, distinctio, consequuntur quaerat mollitia nobis ut animi, tenetur maxime cumque. Doloremque!</p>
+                <aside>
+                    <p>Artigo escrito por Andrewz</p>
+                </aside>
+            </article>
+        </section>
+    </Main>
+    <Footer>
+        <p>
+            Desenvolvido por <a href="#">STW Studios</a>
+        </p>
+    </Footer>
+</body>
+</html>

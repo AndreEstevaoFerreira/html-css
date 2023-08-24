@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        /* PADRAO SHORT HAND
+            W - Width
+            S - Style
+            C - Color
+            TRBL = Top -> Right -> Bottom -> Left
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            height: 100px;
+            width: 500px;
+            border: 13px solid #080871b3;
+        }
+        h1#Maintitulo{
+            text-align: center;
+            padding: 8px 8px 8px 8px;
+            margin:8px auto 8px auto;
+            outline: 5px dashed black;
+        }
+        a{
+            border-width: 3px;
+            border-style: dashed;
+            border-color: #080871b3;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="Maintitulo">Exemplo de caixas box-level</h1>
+    <p>Os parágrafos são exemplos de box level, mas os <a href="#">links são exemplos inline level</a> Vamos ver como tudo isso funciona</p>
+</body>
+</html>
