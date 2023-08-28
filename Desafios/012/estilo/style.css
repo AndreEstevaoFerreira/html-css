@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: ;
+    --cor2: ;
+    --cor3: ;
+    --cor4: ;
+    --cor5: ;
+
+    --fonte-padrao: Arial, Helvetica, Verdana, sans-serif;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #0F2719;
+
+}
+header h1{
+    text-align: center;
+    color: white;
+    padding: 35px 0px 35px 0px;
+    font-size: 3em;
+}
+header p{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    font-size: 1.1em;
+}
+.padrao-background{
+    background-color: #9BB9AF;
+    border: 1px solid black;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.padrao-text{
+    position: absolute;
+    text-align: justify;
+    background-color: #2a3e3fb6;
+    height: 350px;
+    width: 350px;
+    padding: 20px 30px 20px 30px; 
+
+    left: 64%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.padrao-text{
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    line-height: 2.3em;
+    text-align: center;
+}
+.ilustrado-background{
+    background-image: url('../imagens/office=croped.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0.1px solid black;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.ilustrado-text{
+    position: absolute;
+    background-color: #2a3e3ff0;
+    margin-left: 20px;
+    
+    
+    height: 350px;
+    max-width: 400px;
+    padding: 20px 30px 20px 30px;
+    left: 27%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.ilustrado-text > p{
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    line-height: 2.3em;
+    text-align: center;
+}
+.ilustrado-background2{
+    background-image: url('../imagens/pexels-lucie-liz-full.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0.1px solid black;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.ilustrado-text2{
+    position: absolute;
+    background-color: #2a3e3ff0;
+    margin-left: 20px;
+    
+    height: 350px;
+    max-width: 400px;
+    padding: 20px 30px 20px 30px;
+    left: 27%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ilustrado-text2 > p{
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    line-height: 2.3em;
+    text-align: center;
+}
+
+.padrao-background-final{
+    margin-top: 10px;
+    background-color: #0f1008;
+    background-image: url('../imagens/pexels-keyboard-full.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0.1px solid black;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+}
+
+.padrao-text-final{
+    position: absolute;
+    background-color: #f7f7f7f0;
+    margin-left: 20px;
+    
+    max-height: 90%;
+    max-width: 450px;
+    padding: 20px 30px 20px 30px;
+    left: 64%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.padrao-text-final > p{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    line-height: 2.0em;
+    text-align: center;
+    
+}
+p.depoimento{
+    margin-top: 50px;
+    color:black;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: var(--fonte-padrao);
+    line-height: 2.0em;
+    text-align: center;
+}
