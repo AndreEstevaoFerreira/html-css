@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inum">Nota: </label>
+            <input type="range" name="num" id="inum" min="0" max="10" value="10"
+            oninput="inota.innerHTML= Number(inum.value)">
+            <output id="inota">10</output>
+        </p>
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="RESET">
+        </p>
+    </form>
+</body>
+</html>
